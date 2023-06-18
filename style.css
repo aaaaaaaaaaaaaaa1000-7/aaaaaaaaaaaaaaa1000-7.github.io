@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Kablammo&display=swap");
+* {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+header > div {
+  display: flex;
+  align-items: center;
+  font-family: "Comforter", cursive;
+}
+body {
+  background-color: rgb(110, 0, 83);
+}
+header > a {
+  text-decoration: none;
+  color: aquamarine;
+  font-family: "Kablammo", cursive;
+  font-size: 20px;
+}
